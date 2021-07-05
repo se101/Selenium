@@ -1,0 +1,1195 @@
+{
+  "id": "4c62a13b-7621-440a-be3c-8c76bed71f7b",
+  "version": "2.0",
+  "name": "Hci",
+  "url": "https://www.flipkart.com/",
+  "tests": [{
+    "id": "eecd29a3-147e-44c6-bd61-cf942b4aff11",
+    "name": "snapdeal_user1",
+    "commands": [{
+      "id": "33b07721-1f59-4fb6-b974-15b5b434c075",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.snapdeal.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a15823b3-68e5-40bc-9af8-4063a1d9b4db",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1514x974",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ddd007c8-6516-4314-bb43-68af2d185606",
+      "comment": "",
+      "command": "click",
+      "target": "css=#category3Data > .leftData p:nth-child(13) .linkTest",
+      "targets": [
+        ["css=#category3Data > .leftData p:nth-child(13) .linkTest", "css:finder"],
+        ["xpath=//div[@id='category3Data']/div/div/div/p[13]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/div/div/p[13]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Headphones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "674af147-4955-4adb-8849-57120b616ea2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,335)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a2fac08-722d-4717-9921-04091657e82b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2970)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fb7651e-da63-4c0b-ba62-6a77f6f1144a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2467)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81ddf01c-d5db-4bc3-985a-9de72fe475c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-view-more",
+      "targets": [
+        ["css=.js-view-more", "css:finder"],
+        ["xpath=//div[@id='content_wrapper']/div[9]/div/div/div/div[2]/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a997ffc3-c485-4662-bc85-bb18f83d9067",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,252)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50054d2d-e4e5-4a8c-aebd-383e157d0236",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,507.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3f485ab-d18f-443e-be7c-ec5c9f9848b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sschild:nth-child(5) > .filters-list:nth-child(9) > label",
+      "targets": [
+        ["css=.sschild:nth-child(5) > .filters-list:nth-child(9) > label", "css:finder"],
+        ["xpath=//div[@id='tab-']/div/div/div[2]/div/div/div[5]/div[6]/label", "xpath:idRelative"],
+        ["xpath=//div[5]/div[6]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98eddee7-b489-470a-a9e2-5ec96696e52f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.applyFilters",
+      "targets": [
+        ["css=.applyFilters", "css:finder"],
+        ["xpath=//div[@id='content_wrapper']/div[6]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2b16ad1-e27e-46d9-90e1-a6bdfad99cdc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\36 63387820548 .wooble",
+      "targets": [
+        ["css=#\\36 63387820548 .wooble", "css:finder"],
+        ["xpath=//img[@title='boAt Rockerz 600 Bluetooth Headphone with Luxurious Sound, Plush Earcushions, Foldable Ergonomic Design and Up to 20H Playtime (Black)']", "xpath:img"],
+        ["xpath=//div[@id='663387820548']/div[2]/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/a/picture/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4609",
+      "windowTimeout": 2000
+    }, {
+      "id": "77a4ae8d-c242-4d7c-a59e-b7e92758db56",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42554bd4-1be4-49d8-9135-c73771942d4c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4609}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b250c29a-2e2a-44b1-b8d5-fc019d4fe720",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2b63dd1-71fb-44ef-8cf1-33691008b523",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "089a74ab-31b8-4c27-bfc3-a3406045919b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\36 77789732148 .wooble",
+      "targets": [
+        ["css=#\\36 77789732148 .wooble", "css:finder"],
+        ["xpath=//img[@title='Boat Bassheads 900 Carbon Black On Ear Wired With Mic Headphones/Earphones']", "xpath:img"],
+        ["xpath=//div[@id='677789732148']/div[2]/a/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4394",
+      "windowTimeout": 2000
+    }, {
+      "id": "7cfbada8-fce5-4860-a410-4fe159370f35",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4394}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd36f2ee-6747-48af-bd8c-da46a0566a2c",
+      "comment": "",
+      "command": "click",
+      "target": "id=add-cart-button-id",
+      "targets": [
+        ["id=add-cart-button-id", "id"],
+        ["css=#add-cart-button-id", "css:finder"],
+        ["xpath=//div[@id='add-cart-button-id']", "xpath:attributes"],
+        ["xpath=//div[@id='pdp-buynow-rp']/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "62558896-f9a0-4723-a420-559d2a5b209f",
+    "name": "flipkart_user2",
+    "commands": [{
+      "id": "533c4073-c2b4-42fa-a17f-09589a87ccb7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flipkart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf402a2c-d4c2-423b-84dd-bce013119fb3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1514x974",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d5ea5ad-c75c-4090-93ef-5178f644915e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mobiles",
+      "targets": [
+        ["linkText=Mobiles", "linkText"],
+        ["css=.eFQ30H:nth-child(3) > a", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.flipkart.com/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_909738ee-e170-4948-9331-4a1e069932cf_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_3_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L0_view-all&cid=ZRQ4DKH28K8J')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mobiles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67998a50-6624-4fd6-a09c-f080b1dee9cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2WDRax",
+      "targets": [
+        ["css=.\\_2WDRax", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Electronics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce6a7fdc-28aa-4964-baff-ceb7f1cd9228",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2WDRax",
+      "targets": [
+        ["css=.\\_2WDRax", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Electronics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cde2dc05-7a73-4448-a4fb-2cb24e59ea88",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mobile Accessories",
+      "targets": [
+        ["linkText=Mobile Accessories", "linkText"],
+        ["css=.\\_1fwVde:nth-child(2) > .\\_3QN6WI:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Mobile Accessories')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/mobile-phone-cases-covers-screenguards-store?otracker=nmenu_sub_Electronics_0_Mobile%20Accessories')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mobile Accessories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ae62ad6-adc2-42c8-88b1-30bb9472abf5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Headphones & Headsets",
+      "targets": [
+        ["linkText=Headphones & Headsets", "linkText"],
+        ["css=.\\_1fwVde:nth-child(2) > .\\_3QN6WI:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Headphones & Headsets')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div/div[2]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/headphones-store?otracker=nmenu_sub_Electronics_0_Headphones%20%26%20Headsets')]", "xpath:href"],
+        ["xpath=//div[2]/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Headphones & Headsets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c482ed1-97db-42d1-a647-b5a0046952da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.QvtND5 > span",
+      "targets": [
+        ["css=.QvtND5 > span", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div/section[6]/div[2]/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'2692 MORE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "982a98d6-d1e4-4b7e-a28d-907db9cef005",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,551)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b9604c0-3d24-4651-8aff-bd50dfcc0abd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,613.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a70143fa-073e-46ff-87e3-eec5c1817c4e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,657)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3554952-0f40-400a-a4b8-dc733326cdd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2x6kFl",
+      "targets": [
+        ["css=.\\_2x6kFl", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div/section[6]/div[2]/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecbd860d-663c-45a9-8fb9-f94bd96df04b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3IxutE",
+      "targets": [
+        ["css=.\\_3IxutE", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div/section[6]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33d0976f-7967-4e1c-9945-cbdea78826ba",
+      "comment": "",
+      "command": "type",
+      "target": "css=.\\_3IxutE",
+      "targets": [
+        ["css=.\\_3IxutE", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div/section[6]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "boa"
+    }, {
+      "id": "24c75421-8292-4ec7-8120-83a192a84935",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_38vbm7 .\\_24_Dny",
+      "targets": [
+        ["css=.\\_38vbm7 .\\_24_Dny", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div/section[6]/div[2]/div/div/div[2]/div[2]/div/div/label/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e0ea391-d938-4afe-ae0a-323a56745c16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.THxusM > span",
+      "targets": [
+        ["css=.THxusM > span", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div/section[6]/div[2]/div/div/div[3]/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c22a64e4-5bed-499f-b2d9-fda0620349bd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "180c3d23-7735-4e6d-bb9b-09f1b570a2e4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,562)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60435af7-8156-46d1-bd87-915fb9453ece",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1493)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44456b5a-615d-465a-9898-14172497c126",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1AtVbE:nth-child(5) div:nth-child(4) .\\_2rpwqI > div:nth-child(1) > div",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(5) div:nth-child(4) .\\_2rpwqI > div:nth-child(1) > div", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[5]/div/div[4]/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[4]/div/a/div/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win321",
+      "windowTimeout": 2000
+    }, {
+      "id": "1c220ea6-04ec-4ad3-bb4f-a8d7c5f81cf3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win321}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d90163a9-b90b-4ed3-a07e-0eb79da41b72",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.IMZJg1 > span",
+      "targets": [
+        ["css=.IMZJg1 > span", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[3]/div[2]/div/button/div/div/span", "xpath:idRelative"],
+        ["xpath=//button/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'View 3 more offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00c28771-b72e-4a14-9eb1-ab7ba6b08c6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3v1-ww",
+      "targets": [
+        ["css=.\\_3v1-ww", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,' ADD TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4437a7ef-26c4-4a3a-85eb-8794d73cfcbe",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_3v1-ww > span",
+      "targets": [
+        ["css=.\\_3v1-ww > span", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3307d718-9898-44d9-9c5e-1cc92d1d2cd1",
+    "name": "snapdeal_user2",
+    "commands": [{
+      "id": "644172c8-060f-41bb-9d28-15bc44449ea6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.snapdeal.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "306ab32b-c329-4c32-9614-281e42eb66f2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1514x974",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "820b978b-a5d6-48a4-b53d-e43c6274af92",
+      "comment": "",
+      "command": "click",
+      "target": "css=#category3Data p:nth-child(12) .headingText",
+      "targets": [
+        ["css=#category3Data p:nth-child(12) .headingText", "css:finder"],
+        ["xpath=//div[@id='category3Data']/div/div/div/p[12]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/div/div/p[12]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a98f17f9-2a44-4128-b285-391813ac5424",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,725)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3af099d-d922-44a1-8bf5-214834899e8d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3923)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15385393-3d5d-4b27-9472-35efd856d198",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,332)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ede3853-13b9-4072-ac44-7af7462268a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-view-more",
+      "targets": [
+        ["css=.js-view-more", "css:finder"],
+        ["xpath=//div[@id='content_wrapper']/div[9]/div/div/div/div[2]/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "389bcb96-6631-44dc-895e-92e6fe3ed078",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,453)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a32b674-f21f-4318-8977-de93475cf212",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sschild:nth-child(5) > .filters-list:nth-child(13) > label",
+      "targets": [
+        ["css=.sschild:nth-child(5) > .filters-list:nth-child(13) > label", "css:finder"],
+        ["xpath=//div[@id='tab-']/div/div/div[2]/div/div/div[5]/div[10]/label", "xpath:idRelative"],
+        ["xpath=//div[5]/div[10]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68f3a1b0-aeb2-40a5-9ddd-3dcb18b87ca0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.applyFilters",
+      "targets": [
+        ["css=.applyFilters", "css:finder"],
+        ["xpath=//div[@id='content_wrapper']/div[6]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "937a78f6-57b8-4631-bc25-a2793e196f65",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6115.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba692cd9-3fa3-451f-8dc3-75963ed0bbc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\36 77789732148 .hashAdded .wooble",
+      "targets": [
+        ["css=#\\36 77789732148 .hashAdded .wooble", "css:finder"],
+        ["xpath=//img[@title='Boat Bassheads 900 Carbon Black On Ear Wired With Mic Headphones/Earphones']", "xpath:img"],
+        ["xpath=//div[@id='677789732148']/div[2]/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/a/picture/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6827",
+      "windowTimeout": 2000
+    }, {
+      "id": "4a2667ed-d350-4e12-9f35-df552bc2ef4f",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d109ee39-9668-47da-a1dc-304b3756f66a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6827}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "821568d4-fcc2-4eca-bd74-4f26c0f278cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-relative:nth-child(6) .wooble",
+      "targets": [
+        ["css=.product-relative:nth-child(6) .wooble", "css:finder"],
+        ["xpath=//img[contains(@src,'https://n1h2.sdlcdn.com/imgs/j/n/0/large/hitage-na-Over-Ear-Wireless-SDL065076898-1-aea6b.webp')]", "xpath:img"],
+        ["xpath=//div[@id='cee-wrapper-ml-feed']/div[6]/a/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[6]/a/div[2]/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7285",
+      "windowTimeout": 2000
+    }, {
+      "id": "79dad380-5376-428e-9cf2-ef65a897fc67",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7285}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39b42f4c-d707-4ea6-97d6-2eb5f758e202",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2453658-1dce-48c4-b71d-8f46c0aab02d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6827}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "255a3045-7319-432c-b4ce-0ca2659971c6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "681a3034-d6c1-4da4-a667-953fc0493339",
+      "comment": "",
+      "command": "click",
+      "target": "css=#category3Data p:nth-child(12) .headingText",
+      "targets": [
+        ["css=#category3Data p:nth-child(12) .headingText", "css:finder"],
+        ["xpath=//div[@id='category3Data']/div/div/div/p[12]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/div/div/p[12]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab7260c7-f20f-4e39-9b53-48b674a5080d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6827}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a56ddb12-425c-456c-ba3b-7b0d4f718ee2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32b74911-ddd0-4482-8710-ea8d2a5bcad7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b745b9de-ebf8-420a-9e0b-98b990888e95",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-view-more",
+      "targets": [
+        ["css=.js-view-more", "css:finder"],
+        ["xpath=//div[@id='content_wrapper']/div[9]/div/div/div/div[2]/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac21fc94-97b4-4016-ab76-2f88965cee01",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,243)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9b6fd4d-99ca-49f0-b2c5-950759a49b39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sschild:nth-child(5) > .filters-list:nth-child(13) > label",
+      "targets": [
+        ["css=.sschild:nth-child(5) > .filters-list:nth-child(13) > label", "css:finder"],
+        ["xpath=//div[@id='tab-']/div/div/div[2]/div/div/div[5]/div[10]/label", "xpath:idRelative"],
+        ["xpath=//div[5]/div[10]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8186de2-1af1-46c5-8b8c-0539c09c3fd6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.applyFilters",
+      "targets": [
+        ["css=.applyFilters", "css:finder"],
+        ["xpath=//div[@id='content_wrapper']/div[6]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8a10c7c-5f46-432f-8bfe-d99928ff2147",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\36 77789732148 .wooble",
+      "targets": [
+        ["css=#\\36 77789732148 .wooble", "css:finder"],
+        ["xpath=//img[@title='Boat Bassheads 900 Carbon Black On Ear Wired With Mic Headphones/Earphones']", "xpath:img"],
+        ["xpath=//div[@id='677789732148']/div[2]/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/a/picture/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win463",
+      "windowTimeout": 2000
+    }, {
+      "id": "65de1545-ddba-4b53-b971-adfe8f247168",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win463}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1effb6c2-ada3-444f-bee3-7a028a498c99",
+    "name": "flipkart_user1",
+    "commands": [{
+      "id": "80d26e0a-be52-4671-96bb-bb405d90bfd4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flipkart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7bd948d9-ffd2-4e2f-93a3-81238469c12f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1514x974",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70fa0a84-f4c4-43a2-b4cf-3450bda784c4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Powerbank",
+      "targets": [
+        ["linkText=Powerbank", "linkText"],
+        ["css=.\\_2-k99T", "css:finder"],
+        ["xpath=//a[contains(text(),'Powerbank')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div[5]/a/div[2]/div[2]/div[2]/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.flipkart.com/mobile-accessories/power-banks/pr?sid=tyy,4mr,fu6&otracker=categorytree&otracker=nmenu_sub_Electronics_0_Power%20Banks&fm=neo%2Fmerchandising&iid=M_ca639303-fd73-439f-adda-f4f38309f700_1_372UD5BXDFYS_MC.SUDNEM7MT757&otracker=hp_rich_navigation_4_1.navigationCard.RICH_NAVIGATION_Electronics~Powerbank_SUDNEM7MT757&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_4_L1_view-all&cid=SUDNEM7MT757')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a03da0d6-bd27-4134-8952-4606d9fc4a01",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1mIbUg:nth-child(2) .kJjFO0",
+      "targets": [
+        ["css=.\\_1mIbUg:nth-child(2) .kJjFO0", "css:finder"],
+        ["xpath=(//img[@alt='Sale is on'])[2]", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div/div[2]/div/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa116daf-e9ee-47a3-974e-55b084fd4de3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1mIbUg:nth-child(2) .kJjFO0",
+      "targets": [
+        ["css=.\\_1mIbUg:nth-child(2) .kJjFO0", "css:finder"],
+        ["xpath=(//img[@alt='Sale is on'])[2]", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div/div[2]/div/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26ad6049-996a-4d7e-931b-368c6983b7c6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Audio",
+      "targets": [
+        ["linkText=Audio", "linkText"],
+        ["css=.\\_2-k99T", "css:finder"],
+        ["xpath=//a[contains(text(),'Audio')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div[5]/a/div[2]/div[2]/div[2]/div/div/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.flipkart.com/electronics-best-offers-store?fm=neo%2Fmerchandising&iid=M_56e2fa8e-b2a8-4201-a880-d3562641af0e_1_372UD5BXDFYS_MC.KV8NA7Z3WYHI&otracker=hp_rich_navigation_5_1.navigationCard.RICH_NAVIGATION_Electronics~Audio_KV8NA7Z3WYHI&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_5_L1_view-all&cid=KV8NA7Z3WYHI')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d14305c-3dc7-4de5-9984-6a1422509d84",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Headphones & Headsets",
+      "targets": [
+        ["linkText=Headphones & Headsets", "linkText"],
+        ["css=.\\_1fwVde:nth-child(2) > .\\_3QN6WI:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Headphones & Headsets')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div/div[2]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/headphones-store?otracker=nmenu_sub_Electronics_0_Headphones%20%26%20Headsets&otracker=nmenu_sub_Electronics_0_Headphones%20%26%20Headsets')]", "xpath:href"],
+        ["xpath=//div[2]/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Headphones & Headsets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ec6eb9c-5eb4-4e11-a91e-5b57a906437e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2VGJMH .kJjFO0",
+      "targets": [
+        ["css=.\\_2VGJMH .kJjFO0", "css:finder"],
+        ["xpath=(//img[@alt='sdsd'])[2]", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div[2]/div[5]/div/a/div/div/img[2]", "xpath:idRelative"],
+        ["xpath=//a/div/div/img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b498067c-0fcb-4a0e-b4cf-c96daebfe073",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35ab5765-5c8b-4c95-a5cf-767f8908cac7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.QvtND5",
+      "targets": [
+        ["css=.QvtND5", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div/section[6]/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//section[6]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23885df0-c121-47cb-9d03-3a0785fd1ef6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,453.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f165a2ab-d961-4d0a-87d6-ff6d6555bd6e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,593.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a0e2f84-7071-4b5f-ab05-f98c5830a245",
+      "comment": "",
+      "command": "type",
+      "target": "css=.\\_3IxutE",
+      "targets": [
+        ["css=.\\_3IxutE", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div/section[6]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "boat"
+    }, {
+      "id": "34c5cbcd-5931-427e-b73d-36a8a9ea09b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_38vbm7:nth-child(2) .\\_24_Dny",
+      "targets": [
+        ["css=.\\_38vbm7:nth-child(2) .\\_24_Dny", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div/section[6]/div[2]/div/div/div[2]/div[2]/div/div/label/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fce64c2-df16-49da-af3d-ff1c355ec23d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.THxusM > span",
+      "targets": [
+        ["css=.THxusM > span", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div/section[6]/div[2]/div/div/div[3]/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9779359c-fc42-463c-9fee-05740703efe1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d1b4bea-4257-4398-8c49-e968630433a6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1AtVbE:nth-child(2) div:nth-child(2) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) div:nth-child(2) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='boAt BassHeads 100 Wired Headset']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div[2]/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0639e335-a404-42c4-bb7b-02d2d8e87c8b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_1AtVbE:nth-child(2) div:nth-child(2) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) div:nth-child(2) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='boAt BassHeads 100 Wired Headset']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div[2]/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcebbbbd-8fdc-440a-acfd-ceb609af7c8a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1AtVbE:nth-child(2) div:nth-child(3) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) div:nth-child(3) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='boAt Rockerz 450 Bluetooth Headset']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div[3]/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bf7290f-5604-4017-af14-a1afbac5c224",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1AtVbE:nth-child(2) div:nth-child(3) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) div:nth-child(3) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='boAt Rockerz 450 Bluetooth Headset']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div[3]/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div/div/div/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9729",
+      "windowTimeout": 2000
+    }, {
+      "id": "7d9f80e2-b0fa-4857-b2f3-c810501a848c",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "008886fa-06d2-4e9b-aa91-d9b4ef69b8bd",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9729}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28227fe4-b37c-4181-a7e4-c7ba98fb66f9",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e581fea9-55d2-467e-be27-a706f3f39dcd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_1AtVbE:nth-child(2) div:nth-child(3) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) div:nth-child(3) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='boAt Rockerz 450 Bluetooth Headset']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div[3]/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63d7ec43-1739-4eae-aaf6-437b5e5312b7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9729}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a9fc2fd-8cee-4f4c-b47d-757a30cfc5d1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39cd4d93-081d-46b3-84c3-d30bcd6c0418",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a808988-d639-4306-85ef-470dc1461c26",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1AtVbE:nth-child(2) div:nth-child(2) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) div:nth-child(2) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='boAt BassHeads 100 Wired Headset']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div[2]/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56069342-7a24-4cb0-bcdb-4831efc4b25c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_1AtVbE:nth-child(2) div:nth-child(2) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) div:nth-child(2) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='boAt BassHeads 100 Wired Headset']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div[2]/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b853537-7ff5-4058-9bda-4b254d885c35",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1AtVbE:nth-child(5) div:nth-child(2) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(5) div:nth-child(2) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='boAt BassHeads 220 Super Extra Bass Wired Headset']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[5]/div/div[2]/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3e21ee6-324a-4ca0-8a82-168868c8ffdf",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_1AtVbE:nth-child(5) div:nth-child(2) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(5) div:nth-child(2) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='boAt BassHeads 220 Super Extra Bass Wired Headset']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[5]/div/div[2]/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6e74aab-4106-4e46-9892-0877b35d82dd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1196)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c67f8e3e-98dd-4c0d-bb58-cdd34f81fc7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1AtVbE:nth-child(5) div:nth-child(4) .CXW8mj",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(5) div:nth-child(4) .CXW8mj", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[5]/div/div[4]/div/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[4]/div/a/div/div/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5901",
+      "windowTimeout": 2000
+    }, {
+      "id": "96e506eb-7209-4cf1-932c-a0a798edd1f6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5901}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5d98627-6df1-4a67-9df7-0a2d93a4a507",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_3v1-ww",
+      "targets": [
+        ["css=.\\_3v1-ww", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,' GO TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a847bbec-f1dd-4dcc-b983-071aa7bb10ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.P9aMAP > .q6DClP",
+      "targets": [
+        ["css=.P9aMAP > .q6DClP", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div/div/div/div/div/div/ul/li[6]/div/div", "xpath:idRelative"],
+        ["xpath=//li[6]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2729937-4dc2-41f9-a499-16edfd59ea59",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3808)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f452a317-758a-4898-a1ca-f04c0faf58a9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=All questions",
+      "targets": [
+        ["linkText=All questions", "linkText"],
+        ["css=.dVBe_p", "css:finder"],
+        ["xpath=//a[contains(text(),'All questions')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[8]/div[8]/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/boat-bassheads-900-wired-headset/product-questions/itmbc340a61d4f0e?pid=ACCEX3U2RXJFUGWG')]", "xpath:href"],
+        ["xpath=//div[8]/div/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'All questions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48eb64e0-83fb-4db2-862a-ee21004b283d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0afd1cd0-83f8-4458-97d2-ee993b6f872b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_396cs4",
+      "targets": [
+        ["css=.\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='boAt BassHeads 900 Wired Headset']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4275",
+      "windowTimeout": 2000
+    }, {
+      "id": "31ab0c0d-49c8-49db-993e-2ddaadd21e99",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4275}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f70f4a2e-5ee5-4dca-a8b6-74e1a53a3f1b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5901}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cfe9b25-8ece-47c6-a1a4-625f1a917ca3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eafd949c-b5dd-4cab-a799-ebd1bdd5d698",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4275}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "088ffe33-45d8-4857-ada8-4c78756c8cd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3v1-ww",
+      "targets": [
+        ["css=.\\_3v1-ww", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,' GO TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6629dee3-8da5-4c55-9e35-5de9f974c935",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab548928-c337-4848-8852-bb2b948e93da",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d75248f-366e-4518-8430-4613455ab3d9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "895442fd-9cbd-4697-bc53-03fddb45157c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${undefined}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ac457f30-e3c0-4015-8842-e6a5e2c0fe91",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.flipkart.com/"],
+  "plugins": []
+}
